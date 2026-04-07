@@ -1,8 +1,11 @@
 Dataset 02: MIMIC-III Clinical Database (Demo)
- Descripción del Dataset Original
+
+Descripción del Dataset Original
+
 MIMIC-III es una base de datos de acceso abierto que contiene datos de salud anonimizados de pacientes que ingresaron en unidades de cuidados intensivos (UCI). El dataset es de naturaleza relacional, compuesto por múltiples tablas vinculadas por identificadores únicos (subject_id, hadm_id). Para este proyecto, se utilizó la versión Demo, que incluye registros completos de 100 pacientes para permitir el desarrollo de algoritmos sin comprometer la privacidad de datos a gran escala.
 
- ¿Qué se puede hacer con este dataset?
+¿Qué se puede hacer con este dataset?
+
 Es uno de los datasets más potentes para la IA en Salud. Con el procesamiento realizado, el dataset está listo para:
 
 Predicción de Mortalidad Hospitalaria: Entrenar modelos de clasificación para identificar pacientes con alto riesgo de fallecimiento.
