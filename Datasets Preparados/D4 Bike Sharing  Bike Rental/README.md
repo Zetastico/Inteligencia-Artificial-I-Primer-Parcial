@@ -1,5 +1,7 @@
 Dataset 01: Bike Sharing Demand
+
 Descripción del Dataset
+
 Este dataset contiene el registro histórico del sistema de alquiler de bicicletas Capital Bikeshare de Washington, D.C., correspondiente a los años 2011 y 2012. La información combina datos de la duración del alquiler, fechas y horas, con variables contextuales como el clima y la estacionalidad. Es un dataset ideal para practicar el análisis de tendencias temporales y factores externos que afectan el comportamiento del usuario.
 
 ¿Qué se puede hacer con este dataset?
