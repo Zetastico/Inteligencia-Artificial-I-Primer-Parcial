@@ -1,0 +1,26 @@
+Dataset 7
+El Objetivo
+Queremos que el modelo decida si aprueba o no un crédito. Como el dataset es de clasificación binaria, la meta es predecir la columna A15: un 1 si se aprueba y un 0 si se rechaza.
+
+La Estructura de la Red
+Usamos una red neuronal de tipo Perceptrón Multicapa. El flujo es simple:
+
+Como entrada metemos las 14 variables del cliente.
+
+Capas Ocultas: Usamos capas intermedias con la funcion ReLU.
+
+Salida: Terminamos con una sola neurona y una función Sigmoide. Esta función nos devuelve una probabilidad (un número entre 0 y 1) para tomar la decisión final.
+
+Como usamos pytorch el entrenamiento fue de esta manera:
+
+El entrenamiento en PyTorch fue un ciclo de "prueba y error":
+
+Forward: La red lanza una predicción inicial.
+
+Loss (BCELoss): Comparamos esa predicción con el resultado real para ver qué tan equivocado estuvo el modelo.
+
+Backpropagation: El sistema viaja hacia atrás por la red para encontrar qué conexiones fallaron.
+
+Optimizer (Adam): Ajustamos los "pesos" de la red para que en la siguiente vuelta el error sea menor.
+
+Y graficamos lo resultados
